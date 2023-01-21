@@ -1,19 +1,39 @@
-
 import random
 
-tag1 = ["#music" ,"#musica" ,"#musician" ,"#musically" ,"#musicvideo" ,"#livemusic" ,"#newmusic" ,"#musicproducer" ,"#instamusic" ,"#musicians" ,"#musicislife" ,"#musiclover" ,"#housemusic" ,"#musiclife","#guitar" ,"#guitarist" ,"#guitarra" ,"#guitarplayer" ,"#guitars" ,"#guitarsolo" ,"#guitarcover" ,"#guitarporn" ,"#acousticguitar" ,"#guitarsdaily" ,"#electricguitar" ,"#guitarsofinstagram" ,"#guitarrista" ,"#guitaristsofinstagram" ,"#rock" ,"#rocknroll" ,"#rockstar" ,"#rockandroll" ,"#rockmusic" ,"#rockclimbing" ,"#rocky" ,"#hardrock" ,"#jazz" ,"#jazzmusic" ,"#djent" ]
+def main():
+    tag1 = ["#music" ,"#musica" ,"#musician" ,"#musically" ,"#newmusic" ,"#musicproducer" ,"#instamusic" ,"#musicians" ,"#musicislife" ,"#musiclover" ,
+            "#musiclife","#guitar" ,"#guitarist" ,"#guitarra" ,"#guitarplayer" ,"#guitars" ,"#guitarsolo","#guitarsdaily" ,"#electricguitar" ,"#guitarsofinstagram" ,
+            "#guitarrista" ,"#guitaristsofinstagram" ,"#rock","#rockmusic" ,"#rockclimbing" ,"#jazzrock" ,"#hardrock" ,"#jazz" ,"#jazzmusic" ,"#djent"]
 
-tag1_list = random.sample(tag1, 4)
+    tag1_list = random.sample(tag1, 2)
 
-tag2 = ["#musicman" ,"#musiceducation" ,"#musicaurbana" ,"#musicpromotion" ,"#musicachilena" ,"#musicforlife" ,"#musicislove" ,"#musicmemes" ,"#musicmaker" ,"#musiclessons" ,"#musicon" ,"#musiccollection" ,"#musicaeletronica" ,"#musicart" ,"#musicproducerlife" ,"#musicnews" ,"#musicaddict" ,"#musicflow" ,"#musican" ,"#musicgram" ,"#musiclive" ,"#musicblogger" ,"#musicacristiana" ,"#musicallyid" ,"#musicaelectronica" ,"#alternativemusic" ,"#musicjunkie" ,"#musicheals" ,"#bestmusic" ,"#musically🎶" ,"#bestmusicshots" ,"#teatromusical" ,"#musicoterapia" ,"#musiccomposer" ,"#musicoftheday" ,"#chillmusic" ,"#musicbank" ,"#musichistory" ,"#musicmatters" ,"#greatmusic" ,"#musicpromo" ,"#musicreview" ,"#musicworld" ,"#feelthemusic" ,"#musiconvinyl" ,"#cncomusic" ,"#musicalinstrument" ,"#musicvideoshoot" ,"#musicality" ,"#musicanova" ,"#musictheory" ,"#musicallanera" ,"#musicbiz" ,"#musicista" ,"#mymusic" ,"#instrumentalmusic" ,"#musiclifestyle" ,"#musicquotes" ,"#makingmusic" ,"#musiciansdaily" ,"#musicallyvideo" ,"#instamusician" ,"#nomusicnolife" ,"#musicshop" ,"#musicedits","#guitarlove" ,"#guitarworld" ,"#guitarsarebetter" ,"#guitarpedals" ,"#guitarlessons" ,"#guitarras" ,"#guitarplayers" ,"#guitarstagram" ,"#guitarspotter" ,"#guitareffects" ,"#guitarrist" ,"#gibsonguitars" ,"#guitardaily" ,"#guitarpick" ,"#guitarriff" ,"#guitarshred" ,"#guitarplaying" ,"#espguitars" ,"#guitarvideo" ,"#guitarman" ,"#guitaroftheday" ,"#guitarsolos" ,"#guitarpicks" ,"#guitariste" ,"#guitarlovers" ,"#guitarpractice" ,"#sologuitar" ,"#guitargasm" ,"#rockguitar" ,"#leadguitar" ,"#playguitar" ,"#guitargram" ,"#electricguitars" ,"#guitarart" ,"#guitarnerd" ,"#guitarraflamenca" ,"#mathrock"]
+    tag2 = ["djent", "#musicman" ,"#musiceducation" ,"#musicforlife" ,"#musicislove" ,"#musicmaker" ,"#musicart" ,"#musicproducerlife" ,"#musicnews" ,"#musicaddict" ,
+            "#musicflow" ,"#musican" ,"#musicgram" ,"#musiclive" ,"#musicblogger" ,"#musicacristiana" ,"#musicheals" ,"#musically🎶", "#musiccomposer" ,"#chillmusic" ,
+            "#musicbank" ,"#musicworld" ,"#feelthemusic" ,"#musicalinstrument" ,"#musicvideoshoot" ,"#musicality","#musicista" ,"#mymusic" ,"#instrumentalmusic" ,
+            "#musiclifestyle" ,"#musicquotes" ,"#makingmusic" ,"#musiciansdaily" ,"#musicallyvideo" ,"#instamusician" ,"#nomusicnolife" ,"#guitarlove" ,"#guitarworld" 
+            ,"#guitarsarebetter" ,"#guitarpedals" ,"#guitarlessons" ,"#guitarras" ,"#guitarplayers" ,"#guitarstagram" ,"#guitarspotter" ,"#guitareffects" ,"#guitarrist",
+            "#guitardaily" ,"#guitarpick" ,"#guitarriff" ,"#guitarplaying","#espguitars" ,"#guitarvideo" ,"#guitarman" ,"#guitarsolos" ,"#guitarpicks" ,"#guitariste" ,
+            "#guitarlovers" ,"#guitarpractice" ,"#sologuitar" ,"#guitargasm" ,"#rockguitar" ,"#leadguitar" ,"#playguitar" ,"#guitargram" ,"#electricguitars" ,"#guitarart" 
+            ,"#guitarnerd","#mathrock"]
 
-tag2_list = random.sample(tag2, 11)
+    tag2_list = random.sample(tag2, 6)
 
-tag3 = ["#musicmg" ,"#musicmotivation" ,"#musiclessonsforkids" ,"#musicanorteña" ,"#musicalinda" ,"#musicposter" ,"#musictech" ,"#musicalizando" ,"#musicallytamil" ,"#musicaltheatrelife" ,"#musicaemergente" ,"#musicdesign" ,"#musicalatinoamericana" ,"#musiceducator" ,"#musicsupervisor" ,"#musicallystar" ,"#musicmidtown" ,"#musiccityfit" ,"#musicbloggers" ,"#musicaévida" ,"#musicalizacao" ,"#musicalartist" ,"#musicbeats" ,"#musichealsthesoul" ,"#musicispower" ,"#musicarock" ,"#musicisart" ,"#musiciens" ,"#musicalchamber" ,"#musicanime","#musicandmovement" ,"#musicalmemes" ,"#musicteacherlife" ,"#music_kazamuza" ,"#musicdistribution" ,"#musicshowcase" ,"#musicexecutives" ,"#musiccityusa" ,"#musicmood" ,"#musicismyescape" ,"#musicaregional" ,"#musicvideoeditor" ,"#musicwasmyfirstlove" ,"#musicbusinesstips" ,"#musicaindipendente" ,"#musicedit" ,"#musicianphotography" ,"#musicquote" ,"#musicanaveia" ,"#musicclip" ,"#musiceducationmatters" ,"#musicministry" ,"#musicpage" ,"#musicindustrytips" ,"#musicamedicina" ,"#musicwedding" ,"#musicgirl" ,"#musictogether" ,"#musicspeaks" ,"#musicpr" ,"#musicclasses" ,"#musiconworldoff" ,"#musicosmexicanos" ,"#musicinstruments" ,"#musically_rus" ,"#musicstyle" ,"#musicmerch" ,"#musicallynation" ,"#musicpractice" ,"#musiclibrary" ,"#musicduo" ,"#musicnote" ,"#musicallypakistan" ,"#musicalcomedy" ,"#musictheatre" ,"#musicofthespheresworldtour" ,"#musicproject" ,"#musicbookindo" ,"#musicosvenezolanos" ,"#musicculture" ,"#musicforall" ,"#musicsession" ,"#musicinterview" ,"#musicmillenial" ,"#musicastudios" ,"#musicosbrasileiros" ,"#musictherapist" ,"#musicismyreligion" ,"#musicstation" ,"#musicmeditation" ,"#guitarpickups" ,"#guitarshow" ,"#guitarjam" ,"#guitarmemes" ,"#guitarplay" ,"#guitarskills" ,"#guitarcollector" ,"#guitarnerds" ,"#guitar🎸" ,"#guitarchords" ,"#guitarista" ,"#guitarelectric" ,"#guitarrasolo" ,"#guitarbuild" ,"#guitarimprovisation" ,"#guitarbeats" ,"#guitarofinstagram" ,"#guitaristlife" ,"#guitarristasargentinos" ,"#guitaracoustic" ,"#guitartime" ,"#guitarplayersunite" ,"#guitarphotos" ,"#guitarstraps" ,"#guitarplayersofinstagram" ,"#guitarposts" ,"#guitaraddict" ,"#guitara" ,"#offsetguitars" ,"#instaguitarist" ,"#guitarshredding" ,"#learnguitar" ,"#mathteachersrock" ,"#rockmath" ,"#mathstudentsrock" ,"#mathgirlsrock" ,"#rocketmath" ,"#rockingmath" ,"#mathsrock" ,"#mathiasrock" ,"#mathirock" ,"#matheorock" ,"#mathnasiumeaglerock" ,"#mathcentersrock" ,"#mathrocks" ,"#shinymathrocks" ,"#mathrockmemes" ,"#mathrockriff" ,"#mathrockmusic" ,"#clickclackmathrocks" ,"#mathiasrocks" ,"#mathrockstar" ,"#arockiyamatha" ,"#tomrocksmaths" ,"#mathrocktimes" ,"#letsrockmathe" ,"#mathrockstars" ,"#toopunkrockformath" ,"#mathrocksmysocks" ,"#japanesemathrock" ,"#mathrockbands" ,"#emomathrock"]
+    tag3 = ["#musicmotivation" ,"#musicdesign" ,"#musicbloggers" ,"#musicalartist" ,"#musicbeats" ,"#musichealsthesoul" ,"#musicispower" ,"#musicarock" ,"#musicisart" ,
+            "#musiciens" ,"#musicexecutives" ,"#musiccityusa" ,"#musicmood" ,"#musicvideoeditor" ,"#musicwasmyfirstlove" ,"#musicedit",
+            "#musicquote" ,"#musicclip" ,"#musiceducationmatters" ,"#musicinstruments" ,"#musically_rus" ,"#musicstyle" ,"#musicnote" ,
+            "#musicproject"  ,"#musicculture", "#musicastudios","#musicosbrasileiros" ,"#musictherapist" ,"#guitarpickups" ,"#guitarshow" ,"#guitarplay" ,
+            "#guitarcollector" ,"#guitarchords" ,"#guitarista" ,"#guitarelectric" ,"#guitarrasolo","#guitarimprovisation"  ,"#guitaristlife" ,"#guitarristasargentinos" ,
+            "#guitaracoustic" ,"#guitartime" ,"#guitarplayersunite" ,"#guitarposts" ,"#guitaraddict" ,"#guitara" ,"#offsetguitars" ,"#instaguitarist" ,
+            "#rockmath" ,"#mathgirlsrock" ,"#rocketmath" ,"#rockingmath" ,"#mathsrock"  ,"#mathirock" ,"#matheorock" ,"#mathnasiumeaglerock" ,"#mathcentersrock" ,
+            "#mathrocks" ,"#shinymathrocks" ,"#mathrockmemes" ,"#mathrockriff" ,"#mathrockmusic" ,"#mathrocksmysocks" ,"#japanesemathrock" ,"#mathrockbands" ,
+            "#emomathrock"]
 
-tag3_list = random.sample(tag3, 15)
+    tag3_list = random.sample(tag3, 7)
 
-all_tags = tag1_list + tag2_list + tag3_list
+    all_tags = tag1_list + tag2_list + tag3_list
 
-print(*all_tags)
+    print(*all_tags)
 
+for _ in range(15):
+    main() 
+    print("xxxxxxxxxx")
